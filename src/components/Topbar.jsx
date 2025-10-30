@@ -110,7 +110,7 @@ const TopNavbar = () => {
                     scrolled ? "text-orange-300" : "text-yellow-300"
                   }`}
                 >
-                  💡 Have a vision but not sure where to start? ->
+                  💡 Have a vision but not sure where to start?
                 </span>
                 <span className="text-white underline underline-offset-2 font-semibold text-[15px] animate-bounce">
                   our experts are just a message away!

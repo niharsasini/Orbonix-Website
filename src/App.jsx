@@ -8,15 +8,15 @@ import Testimonials from "./components/Testimonials";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import Footer from "./components/Footer";
-import WhyOrbonix from "./components/WhyOrbonix";
+import WhyOrbonix from "./components/whyOrbonix";
 import HowWeWork from "./components/HowWeWork";
 import OurSuccessStories from "./components/OurSuccessStories";
 import TechStacks from "./components/TechStacks";
 import Industries from "./components/Industries";
 import Services from "./components/Services";
 import BookConsultancy from "./components/BookConsultancy";
-import ServicePage from "./pages/ServicePage"; // ✅ Dynamic service page
-import Career from "./pages/Career"; // ✅ Import Career page
+import ServicePage from "./pages/ServicePage"; 
+
 
 function App() {
   return (
@@ -47,8 +47,8 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactUs />} />
 
-        {/* ✅ Career Page */}
-        <Route path="/career" element={<Career />} />
+        {/* ✅ Career Page
+        <Route path="/career" element={<Career />} /> */}
 
         {/* ✅ Dynamic Service Route */}
         <Route path="/services/:serviceId" element={<ServicePage />} />
